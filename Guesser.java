@@ -2,7 +2,7 @@ import java.io.Console;
 
 /**
  * Assignment 1 - Guessing Game
- * 
+ *
  * Here's the unfinished source code
  * for the Guesser class. It is your
  * task to complete the missing parts.
@@ -21,9 +21,12 @@ public class Guesser{
    * and review the section about constructors.
    *
    */
-  
-  // Write the constructor below this line.
 
+  // Write the constructor below this line.
+public Guesser(int low, int high){
+  this.low = low;
+  this.high = high;
+}
 
   /*
    * Task 2. Complete the start() method, so that
@@ -47,7 +50,7 @@ public class Guesser{
    * Task 3. Complete the code for the getReply() method.
    * In the current version below, it returns null each
    * call, which is not what this method is supposed to do.
-   * 
+   *
    * Instead, change the method so that it reads a reply
    * from the player, and if it is "T" or "F", we have
    * a valid reply. Return the String that you read from
