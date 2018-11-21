@@ -1,5 +1,6 @@
 import java.io.Console;
 import java.util.Scanner;
+import java.util.Objects;
 
 
 /**
@@ -67,7 +68,7 @@ public Guesser(int low, int high){
     // write an error message, and read a new reply.
     // When you have gotten a valid reply, return it.
     reply = new Scanner(System.in).nextLine();
-    while (!reply.equals("T") || !reply.equals("F")){
+    while (Objects.equals(reply, "T")==false && Objects.equals(reply, "F")==false){
       System.out.println("Please answer with a T or an F");
       reply = new Scanner(System.in).nextLine();
     }
