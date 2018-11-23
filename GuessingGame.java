@@ -2,7 +2,9 @@ import java.util.Scanner;
 public class GuessingGame {
 
   public static void main(String[] args) {
-    Guesser guesser = new Guesser(0, 1000);
+    int z = Integer.parseInt(args[0]);
+    int o = Integer.parseInt(args[1]);
+    Guesser guesser = new Guesser(z, o);
     guesser.start();
   }
 
