@@ -112,4 +112,8 @@ public Guesser(int low, int high){
                        " guesses)");
   }
 
+  public String toString(){
+    return "Low: " + low + "\nHigh: " + high;
+  }
+
 }
