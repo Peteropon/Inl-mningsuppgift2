@@ -1,0 +1,53 @@
+commit 9f96600762a0ddf564b77da4fb33e073604a6d49
+Author: Petros Tsavdaridis <peteropon@gmail.com>
+Date:   Fri Nov 23 14:04:23 2018 +0000
+
+    Write task 5 (set in args)
+
+commit 3847354b92743f85b3ef54fc446b67fd4898df29
+Author: Petros Tsavdaridis <peteropon@gmail.com>
+Date:   Wed Nov 21 14:31:04 2018 +0000
+
+    Modify getReply method and call start method in main
+
+commit 775b1db09a3deaf84c695cab6bf4094ea344a662
+Author: Petros Tsavdaridis <peteropon@gmail.com>
+Date:   Wed Nov 21 13:48:48 2018 +0000
+
+    Complete the getReply method
+
+commit 00c58f59ff1531b05e9e4d8f4048f5e87a330c54
+Author: Petros Tsavdaridis <peteropon@gmail.com>
+Date:   Wed Nov 21 11:08:05 2018 +0000
+
+    Complete the start() method
+
+commit 74520fb30310e9040c60e0c5f0be08e0a9ea0f2a
+Author: Petros Tsavdaridis <peteropon@gmail.com>
+Date:   Wed Nov 21 10:56:55 2018 +0000
+
+    Create guesser instance and compile
+
+commit c7172741bf43274974659408a1e178ebb2e400c1
+Author: Petros Tsavdaridis <peteropon@gmail.com>
+Date:   Wed Nov 21 10:48:05 2018 +0000
+
+    Create GuessingGame.java
+
+commit b49cf9f5b1da7e7ab29ad12bce4a6c2b04e3ebb3
+Author: Petros Tsavdaridis <peteropon@gmail.com>
+Date:   Wed Nov 21 10:37:34 2018 +0000
+
+    Create constructor for Guesser class
+
+commit 700f4413fdce2801a579594f37d4ef90d508cdcd
+Author: Petros Tsavdaridis <peteropon@gmail.com>
+Date:   Mon Nov 19 12:54:47 2018 +0000
+
+    Create Guesser.java
+
+commit a66295baae2b9aa49dc0cd57e06c919cddcc2145
+Author: Petros Tsavdaridis <peteropon@gmail.com>
+Date:   Mon Nov 19 12:47:05 2018 +0000
+
+    Create file .gitignore.txt
